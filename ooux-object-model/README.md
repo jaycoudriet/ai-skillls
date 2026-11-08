@@ -2,6 +2,8 @@
 
 A Claude skill that turns a rough list of objects, attributes, and actions into a consistent object model. It's built on [Sophia Prater's Object-Oriented UX (OOUX) method](https://ooux.com).
 
+![Example card diagram: Patient books Appointments, each Appointment is with one Provider](assets/images/example-diagram.png)
+
 ## What it does
 
 - Flags naming problems, vague actions, orphan objects, and duplicates
@@ -27,3 +29,4 @@ Appointment: date/time, status, provider. Can be scheduled, cancelled.
 
 - `SKILL.md`: the skill instructions
 - `assets/card-page-template.html`: the card diagram layout the skill fills in for each model
+- `assets/images/example-diagram.png`: a screenshot of the template's example model, used in this README
